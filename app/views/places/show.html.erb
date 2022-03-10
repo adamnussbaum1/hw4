@@ -6,7 +6,7 @@
 <div class="row">
 <% if @current_user %>
 <% for post in @place.posts.where( {user_id: @current_user.id}) %>
-<div class="col-4">
+<div class="col-sm-4">
   <h3 class="display-4 mb-2"><%= post.title %></h3>
   <h4 class="display-8 mb-2"><%= post.posted_on %></h4>
   <p class="display-16 mb-2"><%= post.description %></p>
