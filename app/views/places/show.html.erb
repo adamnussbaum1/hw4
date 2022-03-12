@@ -2,6 +2,10 @@
 
 <h2>My Posts </h2>
 
+<p>
+  <a class="btn btn-success" href="/posts/new?place_id=<%= @place.id %>">New Post</a>
+</p>
+<% end %>
 
 <div class="row">
 <% if @current_user %>
@@ -20,10 +24,7 @@
 </div>
 
 
-<p>
-  <a class="btn btn-success" href="/posts/new?place_id=<%= @place.id %>">New Post</a>
-</p>
-<% end %>
+
 
 <p>
   <a class="btn btn-dark" href="/places">Back to All Places</a>
