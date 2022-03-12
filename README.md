@@ -2,4 +2,4 @@
 
 Full instructions at https://entr451.com/homework-4/
 
-Heroku: https://hw4-nussbaum.herokuapp.com/sessions/new
+Heroku: https://hw4-nussbaum.herokuapp.com/
